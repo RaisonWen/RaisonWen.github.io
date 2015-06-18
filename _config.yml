@@ -24,6 +24,8 @@ social:
 #    url: http://bitbucket.org/jekyll
   - title: github
     url: https://github.com/RaisonWen/raisonwen.github.io
+  - title: google-plus
+    url: https://plus.google.com/114807637782392437720
 
 # Build settings
 markdown: kramdown
