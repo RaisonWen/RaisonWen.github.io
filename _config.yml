@@ -31,8 +31,8 @@ force-https: True
 lang: "en"
 author: "Raison Wen"
 title: "{ Raison Wen }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+description: "Blog and website of Raison Wen."
+keywords: "smith, raison, personal, jekyll, theme"
 favicon: "/img/favicon.ico"
 
 ################
@@ -49,14 +49,14 @@ dynamic-typing: True
 shuffle: True # Shuffle the lines.
 loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
-type-speed: 10
+type-speed: 100
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "做人如果没梦想"
+  - text: "跟咸鱼有什么分别?"
 
-me-img: "/img/jetpacktocat.png"
+me-img: "/img/head-v.png"
 
 ##############################
 # Color the browser elements #
@@ -109,12 +109,27 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
-  - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+  - image: "/img/timeline/codercat.png"
+    date: "December 2013 - Today"
+    description: "Working at Tuniu"
+  - image: "/img/timeline/total-eclipse-of-the-octocat.png"
+    date: "February 2012 - November 2013"
+    description: "Worked at Suning as a Coder"
+  - image: "/img/timeline/hipster-partycat.png"
+    date: "September 2008 - June 2012"
+    description: "Studied computer science and technology at Anhui Normal University. Intrested in student union activity and film"
+  - image: "/img/timeline/dodgetocat.png"
+    date: "September 2005 - June 2008"
+    description: "Studied at ChuZhou Senior Middle School. Intrested in science and film"
+  - image: "/img/timeline/jetpacktocat.png"
+    date: "September 2002 - June 2005"
+    description: "Studied at ChuZhou NO.2 Junior High School. Intrested in painting, cartoon, physics and mathematics."
+  - image: "/img/timeline/welcometocat.png"
+    date: "September 1996 - June 2002"
+    description: "Studied at ChuZhou NO.1 Primary School. Intrested in painting, ping-pong, basketball and so on."
+  - image: "/img/timeline/inflatocat.png"
+    date: "22nd July 1990"
+    description: "Borned"
 
 # First image of the Timeline
 
@@ -134,8 +149,8 @@ email: "raisonwen@gmail.com"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-#author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
-#author_blurb_image: "/img/author.png"
+author_blurb: "我是一个闲散的人. 程序猿. 但我确有个性, 很易相处. 偶尔虽然会脾气不好, 但向来对事不对人, 放心, 7秒之后我就会忘了它, 别放在心上."
+author_blurb_image: "/img/author.png"
 
 ##################
 # Social Buttons #
@@ -171,7 +186,7 @@ keybase-in-footer: True
 pages_list:
   About: 'about'
   Blog: 'latest-post'
-#  Timeline: 'timeline'
+  Timeline: 'timeline'
   Contact: 'contact'
 
 # Exclusion list from the generated _site
